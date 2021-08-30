@@ -10,7 +10,7 @@ Download the extension: [Download here!](https://chrome.google.com/webstore/deta
 
 ## 🔧 How to execute it
 ```
-1. Go the google extension page (link below).
+1. Go the google extension page (link below) using your Google Chrome browser (or chromium based browser).
 https://chrome.google.com/webstore/detail/movie-randomizer/bbjjbpkdajkppdolecmamlffinlbjecl
 
 2. Click on the download button.
@@ -22,7 +22,7 @@ https://chrome.google.com/webstore/detail/movie-randomizer/bbjjbpkdajkppdolecmam
 ```
 1. Download this repository (if you downloaded in ZIP format, you need to unpack it).
 
-2. Go to 'chrome://extensions' in your Google Chrome browser.
+2. Go to 'chrome://extensions' in your Google Chrome browser (or chromium based browser).
 
 3. Check the Developer mode checkbox in the top right-hand corner.
 
