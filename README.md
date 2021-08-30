@@ -60,3 +60,6 @@ The loading page can have diferent phrases (not always the same).
 
 Some bugs can be found, since this project was made in 2 days.
 
+## License
+
+⚖️ CC0-1.0 License
