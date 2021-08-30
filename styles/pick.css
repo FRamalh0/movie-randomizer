@@ -1,0 +1,91 @@
+.options {
+    margin-bottom: 25px;
+    font-family: 'Nunito', 'Trebuchet MS', sans-serif, Arial;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.genre { 
+    margin-bottom: 15px;
+}
+
+.genreButtons, .ratingButtons {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+}
+
+.options h2 {
+    /*color: white;*/
+
+    color: #262525;
+
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+
+.options button {
+    /*color: #999999;*/
+    color: #797979;
+    
+    font-family: 'Nunito', 'Trebuchet MS', sans-serif, Arial;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    border: 0;
+    background-color: #00000000;
+
+    padding: 4px 7px 4px 7px;
+    
+}
+
+.genreButton {
+    margin: 0px 2px 2px 2px;
+}
+
+
+.options button:hover {
+    cursor: pointer;
+    background-color: #fcd78e;
+    border-radius: 10px;
+}
+
+.options .selected {
+    /*color: #ffffff;*/
+    color: white;
+
+    background-color: #ffa800;
+    border-radius: 10px;
+
+}
+.options .selected:hover {
+    background-color: #ad7401;
+}
+
+#pickButton {
+    color: white;
+    font-weight: bold;
+
+    background-color: #ffa800;
+    
+    border: 0;
+    border-radius: 50px;
+
+    padding: 5px 15px 5px 15px;
+
+    font-family: 'Nunito', 'Trebuchet MS', sans-serif, Arial;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+#pickButton:hover{
+    background-color: #ad7401;
+    cursor: pointer;
+}

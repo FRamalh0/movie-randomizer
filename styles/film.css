@@ -1,0 +1,146 @@
+.movie {
+    /* background-color: rgba(0, 0, 0, 0.158);*/
+    width: 280px;
+    min-height: 315px;
+
+    border-radius: 10px;
+    padding: 10px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+    font-family: 'Nunito', 'Trebuchet MS', sans-serif, Arial;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.poster {
+
+    height: 150px;
+    border-radius: 8px;
+    
+}
+
+.moviePrim {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.movie .posterDiv {
+    position: relative;
+}
+
+.movieInfo {
+    margin-left: 10px;
+}
+
+.movieInfo div {
+    display: flex;
+    flex-direction: row;
+}
+
+.movieInfo div .inner {
+    margin-left: 3px
+}
+
+.movie h2 {
+    color: black;
+    margin: 0;
+    line-height: 1.2rem;
+    margin-bottom: 3px;
+}
+
+.movie p {
+    color: rgb(124, 124, 124);
+    margin: 0;
+}
+
+.movie .score {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+
+    height: 28px;
+    width: 28px;
+
+    color: white;
+    font-weight: bold;
+    
+    border-radius: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.movie .green {
+    background-color: #06c906;
+}
+
+.movie .yellow {
+    background-color: #f3a410;
+}
+
+.movie .red {
+    background-color: #da1a1a;
+}
+
+.movie .overview {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#tryAgain {
+    color: white;
+
+    border: 0;
+    padding: 5px 15px 5px 15px;
+    margin-right: 5px;
+
+    background-color: #ffa800;
+    border-radius: 50px;
+
+    font-weight: bold;
+    font-family: 'Nunito', 'Trebuchet MS', sans-serif, Arial;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#tryAgain:hover {
+    background-color: #ad7401;
+    cursor: pointer;
+}
+
+#goback {
+    color: white;
+
+    border: 0;
+    padding: 5px 15px 5px 15px;
+    margin-right: 5px;
+
+    background-color: #5f5f5f;
+    border-radius: 50px;
+
+    font-weight: bold;
+    font-family: 'Nunito', 'Trebuchet MS', sans-serif, Arial;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#goback:hover {
+    background-color: #a8a8a8;
+    cursor: pointer;
+}
