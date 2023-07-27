@@ -1,9 +1,9 @@
 {
     "name": "Movie Randomizer",
     "description": "Don't know what to watch? I will choose for you!",
-    "version": "1.0",
+    "version": "1.1",
     "manifest_version": 3,
-    "permissions": ["storage"],
+    "permissions": [],
     "action": {
       "default_popup": "main.html",
       "default_icon": {
